@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="icon" type="img/png" href="icon/cup-of-drink.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style1.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <img class="coffee1" src="icon/coffee.png" alt="">
+        </a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+            <a href="#clock-container">Time</a>
+        </nav>
+
+        <div class="icons">
+            <div class="hehe"id="search-btn"><img src="icon/loupe.png"></img></div>
+            <div class="menu" id="menu-btn"><img src="icon/menu.png" height="1rem" alt=""></div>
+        </div>
+
+        <div class="search-form">
+            <input style="color: black;" type="search" id="searchbox" placeholder="search here..." onkeydown="search()">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>fresh coffee in the morning</h3>
+            <p>As it's thought that coffee originated in Ethiopia, it's also believed it made its way north, across the red sea into Yemen in the 15th Century. It then started to be grown here in the Yemeni district of Arabia, and by the 16th century it was known in Persia, Egypt, Syria, and Turkey.</p>
+            <a href="#" class="btn" id="random-btn"></a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h1 class="heading"><span>about</span> Coffee</h1>
+        <div class="row">
+            <div class="image">
+                <img src="img/coffee1.jpg" alt="">
+            </div>
+            <div class="content">
+               <h3> What make coffee special?</h3>
+               <p>The coffees are assessed based on how they are grown, processed, their fragrance, body, aroma, acidity, and balance. If you brew a cup of specialty coffee, you'll be able to taste a drink that has multiple aromas and flavors.</p>
+               <p>Specialty coffee is a term for the highest grade of coffee available, typically relating to the entire supply chain, using single origin or single estate coffee. The term was first used in 1974 by Erna Knutsen in an issue of Tea & Coffee Trade Journal.</p> 
+            </div>
+            <a href="#" class="btn1">Read More</a>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <h1 class="heading">best <span>taste</span></h1>
+
+        <div class="box-container" id="coffeelist">
+            <div class="box">
+                <img src="img/coffee2.jpg"alt="">
+                <h3>Whipped Banana Latte</h3>
+                <div class="hehe">
+                    <button type="button" onclick="location.href='coffee1.html'">Know more</button>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/coffee3.jpg"
+                alt="">
+                <h3>Bulletproof Coffee</h3>
+                <div class="hehe">
+                    <button type="button" onclick="location.href='coffee2.html'">Know more</button>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/coffee4.jpg"
+                alt="">
+                <h3>Vanilla Almond Coffee</h3>
+                <div class="hehe">
+                    <button type="button" onclick="location.href='coffee3.html'">Know more</button>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/coffee5.jpg"
+                alt="">
+                <h3>Cinnamon Mocha Coffee</h3>
+                <div class="hehe">
+                    <button type="button" onclick="location.href='coffee4.html'">Know more</button>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/coffee6.jpg"
+                alt="">
+                <h3>Honey Spiced Latte</h3>
+                <div class="hehe">
+                    <button type="button" onclick="location.href='coffee5.html'">Know more</button>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/coffee7.jpg"alt="">
+                <h3>Pumpkin Spice Coffee</h3>
+                <div class="hehe">
+                    <button type="button" onclick="location.href='coffee6.html'">Know more</button>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/coffee8.jpg"alt="">
+                <h3>Scandinavian Coffee</h3>
+                <div class="hehe">
+                    <button type="button" onclick="location.href='coffee7.html'">Know more</button>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/coffee9.jpg"alt="">
+                <h3>Iced Skinny Hazelnut Latte</h3>
+                <div class="hehe">
+                    <button type="button" onclick="location.href='coffee8.html'">Know more</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="review" id="review">
+        <h1 class="heding">
+            customer's <span>review</span>
+        </h1>
+
+        <div class="box-container2"></div>
+    </section>
+
+    <section class="footer">
+
+        <div id="clock-container">
+            <div id="clock">00:00:00</div>
+        </div>
+
+        <div class="shar">
+            <a href="#"><img src="icon/facebook.png" class="face" alt=""></a>
+            <a href="#"><img src="icon/twitter.png" class="face" alt=""></a>
+            <a href="#"><img src="icon/instagram.png" class="face" alt=""></a>
+            <a href="#"><img src="icon/social.png" class="face" alt=""></a>
+        </div>
+
+        <div class="links">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+            <a href="#clock-container">Time</a>
+        </div>
+
+        <div class="credit">created by <span>myo thant zin</span></div>
+    </section>
+    <script src="javascript/j1.js"></script>
+</body>
+</html>
